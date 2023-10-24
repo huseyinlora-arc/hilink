@@ -1,0 +1,1 @@
+1- theming in tailwind (tailwind.config.ts dosyasına standartları atıyoruz.)
