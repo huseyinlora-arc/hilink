@@ -1,3 +1,6 @@
 1- theming in tailwind (tailwind.config.ts dosyasına standartları atıyoruz.)
 
-Layout'unda olan şeyler (componentler vs) tüm page'lerde görünür. Adı üstünde projenin layoutu.
+2- Layout'unda olan şeyler (componentler vs) tüm page'lerde görünür. Adı üstünde projenin layoutu.
+3- Nextjs'te artık component'lere react'i import etmek zorunda değiliz.
+4- Nextjs'in <Image /> tag'i, görsellerin yüklenmesini optimize ediyor.
+5- constants folder mantığını hatırla
