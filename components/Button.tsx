@@ -5,7 +5,7 @@ type ButtonProps = {
   title: string;
   /* ? = optional */
   icon?: string;
-  variant: "btn_dark_green";
+  variant: string;
 };
 
 /* Accepting props: */
