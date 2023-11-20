@@ -3,7 +3,6 @@ import Image from "next/image";
 type ButtonProps = {
   type: "button" | "submit";
   title: string;
-  /* ? = optional */
   icon?: string;
   variant: string;
   full?: boolean;

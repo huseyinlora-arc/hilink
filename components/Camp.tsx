@@ -15,13 +15,18 @@ const CampSite = ({
 }: CampProps) => {
   return (
     <div
-      className={`h-full w-full min-w-[1100px]  ${backgroundImage} bg-contain  bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl `}
+      className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-contain  bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}
     >
       <div className="flex h-full w-100 flex-col items-start justify-between p-6 lg:px-20 lg:py-10  ">
         {/* ! Badge, title, subtitle (On the top of) */}
         <div className="flexCenter gap-4 ">
           <div className="rounded-full bg-green-50 p-4">
-            <Image src="/folded-map.svg" alt="map" width={24} height={24} />
+            <Image
+              src="/study-cases/travel-app-ui-ux/folded-map.svg"
+              alt="map"
+              width={24}
+              height={24}
+            />
           </div>
           <div className="flex flex-col gap-1">
             <h4 className="bold-18 text-white ">{title}</h4>
@@ -80,7 +85,7 @@ const Camp = () => {
             adventure
           </p>
           <Image
-            src="/quote.svg"
+            src="/study-cases/travel-app-ui-ux/quote.svg"
             alt="camp-2"
             width={186}
             height={219}

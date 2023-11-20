@@ -161,3 +161,38 @@ body {
   scrollbar-width: none;
   /* Firefox */
 }
+
+
+/* Scroll Bar Özellikleri */
+::-webkit-scrollbar {
+  width: 0.7em;
+  backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 12px 0 12px 0;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+/*Scrolbarr'ın kendisi */
+::-webkit-scrollbar-track {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+}
+
+/* Tuttuğun çubuk. */
+::-webkit-scrollbar-thumb {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgb(48 175 91);
+  border-radius: 12px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(20, 111, 50);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: rgb(12, 71, 32);
+}

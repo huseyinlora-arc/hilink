@@ -6,10 +6,15 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="flexCenter mb-24">
-      <div className="padding-container max-container flex w-full flex-col gap-14">
+      <div className="padding-container max-container flex w-full flex-col gap-10">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row ">
           <Link href="/" className="mb-10">
-            <Image src="hilink-logo.svg" alt="logo" width={74} height={29} />
+            <Image
+              src="/study-cases/travel-app-ui-ux/hilink-logo.svg"
+              alt="logo"
+              width={74}
+              height={29}
+            />
           </Link>
 
           <div className="flex flex-wrap gap-10 sm:justify-between md:flex-1">
@@ -55,8 +60,19 @@ const Footer = () => {
           </div>
         </div>
         <div className="border bg-gray-20" />
-        <p className="regular-14 w-full text-center text-gray-30">
-          2024 Hilink | All rights reserved
+        <p className="regular-18 w-full text-center text-gray-30">
+          <span className="text-2xl">&#9978;</span> 2024 Hilink | All rights
+          reserved
+        </p>
+        <p className="regular-14 w-full text-center text-gray-30  font-bold">
+          Developed with &#9749; by&nbsp;
+          <a
+            href="https://www.linkedin.com/in/huseyinlora/"
+            target="_blank"
+            className="text-blue-70 underline text-opacity-60 hover:text-opacity-100 font-bold"
+          >
+            huseyinlora
+          </a>
         </p>
       </div>
     </footer>

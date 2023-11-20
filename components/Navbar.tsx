@@ -9,7 +9,12 @@ const Navbar = () => {
     <>
       <nav className="flexBetween max-container padding-container relative z-30 py-5">
         <Link href="/">
-          <Image src="/hilink-logo.svg" alt="Logo" width={74} height={29} />
+          <Image
+            src="/study-cases/travel-app-ui-ux/hilink-logo.svg"
+            alt="Logo"
+            width={74}
+            height={29}
+          />
         </Link>
         {/* Responsiveness: lg ve üstünde flex olarak görünür oluyor. */}
         <ul className="hidden h-full  gap-12 lg:flex">
@@ -23,17 +28,17 @@ const Navbar = () => {
             </Link>
           ))}
         </ul>
-        <div className="hidden lg:flexCenter">
+        <div className="hidden lg:flex">
           <Button
             /* Props: */
             type="button"
             title="Login"
-            icon="/user.svg"
+            icon="/study-cases/travel-app-ui-ux/user.svg"
             variant="btn_dark_green"
           />
         </div>
         <Image
-          src="menu.svg"
+          src="/study-cases/travel-app-ui-ux/menu.svg"
           alt="menu"
           width={32}
           height={32}
