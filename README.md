@@ -1,5 +1,5 @@
 # Hilink
-Fully responsive & modern UI/UX app of an travel agent.
+Fully responsive & modern UI/UX app of an arbitrary travel agent.
 
 ## Tech Stack
 • Reactjs
